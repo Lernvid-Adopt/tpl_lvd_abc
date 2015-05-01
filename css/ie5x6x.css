@@ -1,0 +1,54 @@
+﻿/* ==============================
+   1. Schriftgröße definieren  */   
+
+
+
+/* ==============================
+   2. Zentrierung von #wrapper */
+
+body { 
+	text-align:center;
+}
+#masthead_container {
+	margin:0;
+	padding:0;	
+}
+#masthead {
+	height: 120px;	
+	margin:0;
+	padding:0;	
+}
+#logo {
+	width: 300px;
+}
+#wrapper {
+	text-align:left;
+	width: 998px;
+}
+#container { 
+	margin:0;
+	padding: 0;
+}
+#content {
+	width: auto;
+}
+#content_outer {
+	width: auto;
+}
+#content_inner {
+	width: auto;
+}
+
+table.poll {
+	width : auto;
+}
+.validate {
+	margin: 0;
+	padding: 0;
+}
+#form-login li {
+	background : #151515;
+}
+li {
+	background: none;
+}

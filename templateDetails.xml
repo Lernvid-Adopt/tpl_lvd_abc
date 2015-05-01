@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>abc_LernVid.com</name>
+	<creationDate>14.01.2010</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>Copyright LernVid.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+	<hr>
+	<h1 style="padding:10px;">abc by LernVid.com</h1>
+	<hr>
+	<p style="padding:5px;">Author <a href="http://lernvid.com" target="_blank">Lernvid.com - Lernvideos Tutorials Templates PSD-Files und mehr... </a>.</p>
+	<p style="padding:5px;">It's not allowed to delete the backlink to the autor. More informations: <a href="http://www.lernvid.com/lizenz.html" target="_blank">LernVid.com - Licence Infos</a></p>
+	<p style="padding:5px;">This template was published under Creative Commons Licence . More informations: <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank">Creative Commons Lizenz Mulilanguage </a></p>
+	<p style="padding:5px;">LernVid.com wishes you much fun with the template.</a></p>
+	<p style="padding:5px;">Support under: <a href="http://www.board.lernvid.com" target="_blank">Supportforum - LernVid.com</a></p>	
+	<hr>
+	<img src="../templates/abc_lernvid.com/template_thumbnail.png" align="left" hspace="10" style="padding:10px;" />
+	]]>  
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>fl/index.html</filename>
+		<filename>fl/header.swf</filename>
+		<filename>fl/h3.swf</filename>
+		<filename>fl/flashline.swf</filename>
+		<filename>images/index.html</filename>
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+		<images>
+		<filename>images/button_bg.gif</filename>
+		<filename>images/contentheading.gif</filename>
+		<filename>images/content.gif</filename>
+		<filename>images/componentheading.gif</filename>
+		<filename>images/footer.gif</filename>
+		<filename>images/header.jpg</filename>		
+		<filename>images/list.png</filename>
+		<filename>images/list_hover.png</filename>
+		<filename>images/logo.gif</filename>
+		<filename>images/menu.jpg</filename>
+		<filename>images/menu_hover.jpg</filename>		
+		<filename>images/module_h3.gif</filename>
+		<filename>images/module_lb.gif</filename>
+		<filename>images/module_left_h3.gif</filename>
+		<filename>images/module_lt.gif</filename>
+		<filename>images/module_rb.gif</filename>
+		<filename>images/module_right_h3.gif</filename>
+		<filename>images/module_rt.gif</filename>
+		<filename>images/nav.gif</filename>
+		<filename>images/nav_hover.gif</filename>
+		<filename>images/navigation.gif</filename>
+		<filename>images/sep.gif</filename>
+		<filename>params.ini</filename>
+		</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/ie5x6x.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>css/reset.css</filename>
+	</css>
+	<params>		
+		<param name="showLogo" type="radio" default="1" label="Enable Image LOGO?" description="Here you can choose if the LOGO on the top should be shown or not.">
+		  <option value="0">No</option>
+		  <option value="1">Yes</option>
+		</param>
+		<param name="showFlashheader" type="radio" default="1" label="Show Flash Header?" description="Here you can choose if the Flash Header on the top should be shown or not.">
+		  <option value="0">No</option>
+		  <option value="1">Yes</option>
+		</param>
+		<param name="showFlashline" type="radio" default="1" label="Show Flash Line?" description="Here you can choose if the Flash Line under the Header should be shown or not.">
+		  <option value="0">No</option>
+		  <option value="1">Yes</option>
+		</param>
+		<param name="CopyrightInfo" type="textarea" rows="5" cols="40" default="Copyright Info - Enter the Template Parameters to edit this." label="Enter your CopyrightInfo" description="Here you can enter a copright descrition that will be visible in the bottom of the page. - You can also add an image with html code"></param>
+	</params>
+	<positions>
+		<position>top</position>
+		<position>debug</position>
+		<position>breadcrumb</position>
+		<position>footer</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+	</positions>
+</install>
